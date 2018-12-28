@@ -1,0 +1,78 @@
+body{
+  background-image: linear-gradient(to bottom, #ffb732 , #ffd27f, #ffb732);
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+img{
+  height: 400px;
+  width: 250px;
+  padding: 5px;
+}
+
+/*Makes the logo look nice */
+#logodiv{
+  width: 100%;
+  height: 135px;
+  background-color: none;
+  display: inline-block;
+}
+
+#Logo{
+  height: inherit;
+  margin-left: 0px;
+  float: left;
+  padding: 0px;
+}
+
+a{
+  color: white;
+  height: inherit;
+  margin-left: 0px;
+  float: left;
+  padding: 0px;
+}
+
+#gun{
+  width: 400px;
+  height: 250px;
+}
+
+/*Button to return to the homepage styling */
+#return{
+  background-color: orange;
+  color: white;
+  max-width: 130px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  position: fixed;
+}
+
+/*Testing collapsable menu stuff.  More info here: https://www.w3schools.com/howto/howto_js_collapsible.asp*/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+ background-image: linear-gradient(150deg, #7FCCB1, orange);
+ color: black;
+ cursor: pointer;
+ margin-top: 10px;
+ padding: 18px;
+ width: 100%;
+ border: none;
+ text-align: left;
+ outline: none;
+ font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+ background-color: none;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+ padding: 5px;
+ display: none;
+ overflow: hidden;
+ background-color: none;
+}

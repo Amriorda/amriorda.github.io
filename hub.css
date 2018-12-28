@@ -1,0 +1,119 @@
+body{
+  background-image: linear-gradient(to bottom, #ffb732 , #ffd27f, #ffb732);
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+#section{
+  padding-top: 10px;
+  margin-left: 5%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+p{
+  font-size: 20px;
+}
+
+a{
+  color: white;
+  height: inherit;
+  margin-left: 0px;
+  float: left;
+}
+
+/*Makes the logo look nice */
+#logodiv{
+  width: 100%;
+  height: 135px;
+  background-color: none;
+  display: inline-block;
+}
+
+#Logo{
+  height: inherit;
+  margin-left: 0px;
+  float: left;
+}
+
+/* Just displays the hub page elements pleasantly */
+figure{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 3px black solid;
+  background-color: black;
+  color: white;
+}
+
+.contact{
+  text-align: left;
+}
+
+/*Button to return to the homepage styling */
+#return{
+  background-color: orange;
+  color: white;
+  max-width: 130px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  position: fixed;
+}
+
+img{
+  height: 400px;
+  width: 250px;
+}
+
+/* Everything here on is test material to make a hover display */
+/* Coding help from this link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+.container {
+  position: relative;
+  width: 250px;
+  display: inline-block;
+}
+
+.image {
+  display: inline-block;
+  height: 400px;
+  width: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: inherit;
+  width: inherit;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: .85;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
