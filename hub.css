@@ -30,6 +30,12 @@ a{
   float: left;
 }
 
+/*Makes the contact links not wonky */
+#ConLink{
+     float: none;
+     margin-left: none;
+}
+
 /*Makes the logo look nice */
 #logodiv{
   width: 100%;
