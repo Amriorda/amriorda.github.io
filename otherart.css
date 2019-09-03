@@ -33,6 +33,13 @@ a{
   padding: 0px;
 }
 
+#sauce{
+  margin: default;
+  float: none;
+  height: inherit;
+  color: black;
+}
+
 #gun{
   width: 400px;
   height: 250px;

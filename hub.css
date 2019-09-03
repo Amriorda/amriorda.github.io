@@ -81,6 +81,12 @@ img{
   width: 250px;
 }
 
+/* Just for pictures that are wide at a 2:3 aspect ratio */
+#gun{
+  width: 400px;
+  height: 250px;
+}
+
 /* Everything here on is test material to make a hover display */
 /* Coding help from this link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
 .container {
