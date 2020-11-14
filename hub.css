@@ -1,6 +1,6 @@
 body{
-  background-image: linear-gradient(to bottom, #ffb732 , #ffd27f, #ffb732);
-  color: black;
+  background-image: linear-gradient(to bottom, white , grey, white);
+
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -29,25 +29,17 @@ a{
   margin-left: 0px;
   float: left;
 }
-
-/*Makes the contact links not wonky */
-#ConLink{
-     float: none;
-     margin-left: none;
-}
-
 /*Makes the logo look nice */
 #logodiv{
-  width: 100%;
-  height: 135px;
+  height: 160px;
   background-color: none;
-  display: inline-block;
+  display: block;
+  margin: none;
 }
 
 #Logo{
   height: inherit;
-  margin-left: 0px;
-  float: left;
+  margin: none;
 }
 
 /* Just displays the hub page elements pleasantly */
@@ -65,15 +57,27 @@ figure{
   text-align: left;
 }
 
+/*Makes the contact links not wonky */
+#ConLink{
+     float: none;
+     margin-left: none;
+     color: black;
+}
+
 /*Button to return to the homepage styling */
 #return{
-  background-color: orange;
+  background-color: black;
   color: white;
   max-width: 130px;
   padding: 5px;
   bottom: 5px;
   right: 5px;
   position: fixed;
+}
+
+#bigpot{
+  margin: auto;
+  width: 90%;
 }
 
 img{
